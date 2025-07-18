@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, "../frontend")));
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 const fs = require("fs");
-const dataPath = path.resolve(__dirname, 'backend/data.json');
+const dataPath = path.resolve(__dirname, 'data.json');
 const data = fs.readFileSync(dataPath, 'utf-8');
 
 
