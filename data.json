@@ -1,0 +1,149 @@
+{
+    "faqs": [
+      {
+        "question": "How do I generate a service token?",
+        "answer": "Visit the Timex website, log in to your account, go to the 'Service' section, and follow the on-screen instructions to generate a token."
+      },
+      {
+        "question": "What is the warranty period for Timex watches?",
+        "answer": "Timex watches come with a one-year warranty from the date of purchase."
+      },
+      {
+        "question": "Can I return a product after purchase?",
+        "answer": "Yes, Timex allows returns within 30 days of delivery if the product is unused and in original packaging."
+      },
+      {
+        "question": "Can I buy watches online?",
+        "answer": "Yes, you can buy watches online with ease & convenience. You can buy watches from shop.timexindia.com or from other e-com websites. Kindly note that, if you wish to buy watches from other e-com sites then please buy only from authorized sellers."
+      },
+      {
+        "question": "Are watches purchased online authentic with full service warranty applicable?",
+        "answer": "Watches purchased from shop.timexindia.com are 100% genuine and carry full service warranty commitment as per the company policy. Watches purchased from other e-commerce sites will be valid for service warranty only if bought through authorized sellers."
+      },
+      {
+        "question": "Where can I find replacement watch straps?",
+        "answer": "If you're having difficulty finding your strap, you can contact our Customer Service centers or call our toll-free helpline at 1800-419-2727 (Mon to Sat, 10 AM to 7 PM). Replacement strap prices vary depending on the model of your watch, and watches may need to be sent in for assessment and quotation."
+      },
+      {
+        "question": "Can you explain your repair or replace policy for warranty service?",
+        "answer": "Typically, we repair your watch by installing new or reconditioned and inspected components, or we replace it with an identical or similar model depending on the case."
+      },
+      {
+        "question": "Can you tell me what it will cost to repair my watch?",
+        "answer": "Repair charges vary depending on the style, age, and condition of the watch. We advise visiting the nearest customer service center for assistance with an accurate estimate."
+      },
+      {
+        "question": "How long does it normally take to get my watch back?",
+        "answer": "The repair and service timelines depend on the style, age, and condition of the watch. Typically, you will receive your watch back within approximately 2 to 4 weeks."
+      },
+      {
+        "question": "What is the difference between a water resistant and waterproof watch?",
+        "answer": "Water resistant means the watch can resist water penetration to a certain extent. Waterproof implies no water can pass through at all. Currently, Timex only sells water resistant watches."
+      }
+
+    ],
+    
+     "Products": [
+      {
+            "name": "Timex Expedition Scout",
+            "description": "A rugged outdoor watch with an analog display and INDIGLO night-light.",
+            "url": "https://www.timex.com/exploration-scout",
+            "category": "Outdoor",
+            "gender": "Men"
+      },
+      {
+            "name": "Timex Waterbury Classic",
+            "description": "A timeless design with a classic leather strap and minimalist dial.",
+            "url": "https://www.timex.com/waterbury-classic",
+            "category": "Classic",
+            "gender": "Unisex"
+      },
+      {
+            "name": "Timex Ironman R300",
+            "description": "Fitness-focused smartwatch with built-in GPS and heart rate monitor.",
+            "url": "https://www.timex.com/ironman-r300",
+            "category": "Smartwatch",
+            "gender": "Unisex"
+      },
+      {
+            "name": "Timex Easy Reader",
+            "description": "An iconic, easy-to-read watch with bold numerals and backlight.",
+            "url": "https://www.timex.com/easy-reader",
+            "category": "Casual",
+            "gender": "Women"
+      },
+      {
+            "name": "Timex Metropolitan S",
+            "description": "Sleek modern smartwatch with touch display and health tracking features.",
+            "url": "https://www.timex.com/metropolitan-s",
+            "category": "Smartwatch",
+            "gender": "Women"
+      },
+      {
+            "name": "Timex Weekender Chronograph",
+            "description": "Casual weekend-ready watch with interchangeable straps.",
+            "url": "https://www.timex.com/weekender-chronograph",
+            "category": "Casual",
+            "gender": "Men"
+      },
+      {
+            "name": "Timex T80 Digital Watch",
+            "description": "Retro-inspired digital watch with stopwatch and alarm.",
+            "url": "https://www.timex.com/t80",
+            "category": "Retro",
+            "gender": "Unisex"
+      },
+      {
+            "name": "Timex Expedition Katmai Combo",
+            "description": "Hybrid analog-digital watch built for adventure.",
+            "url": "https://www.timex.com/katmai-combo",
+            "category": "Outdoor",
+            "gender": "Men"
+      },
+      {
+            "name": "Timex Marvel Spider-Man Kids Watch",
+            "description": "Fun, durable kids watch featuring Spider-Man graphics.",
+            "url": "https://www.timex.com/marvel-kids-spiderman",
+            "category": "Character",
+            "gender": "Kids"
+      },
+      {
+            "name": "Timex x Peanuts Lucy Watch",
+            "description": "Quirky Peanuts character watch with vintage charm.",
+            "url": "https://www.timex.com/peanuts-lucy",
+            "category": "Character",
+            "gender": "Women"
+      },
+      {
+            "name": "Timex iConnect Active",
+            "description": "Affordable smartwatch with call/text alerts and step tracking.",
+            "url": "https://www.timex.com/iconnect-active",
+            "category": "Smartwatch",
+            "gender": "Unisex"
+      },
+      {
+            "name": "Timex Standard Chronograph",
+            "description": "Everyday watch with stopwatch functionality and leather strap.",
+            "url": "https://www.timex.com/standard-chronograph",
+            "category": "Chronograph",
+            "gender": "Men"
+      },
+      {
+            "name": "Timex Women's Celestial Opulence",
+            "description": "Elegant watch with starry dial and crystal accents.",
+            "url": "https://www.timex.com/celestial-opulence",
+            "category": "Fashion",
+            "gender": "Women"
+      },
+      {
+            "name": "Timex Expedition North Titanium",
+            "description": "Premium titanium field watch for rugged adventure.",
+            "url": "https://www.timex.com/expedition-north-titanium",
+            "category": "Outdoor",
+            "gender": "Men"
+      }
+    ]
+}
+      
+
+  
