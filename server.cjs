@@ -12,43 +12,15 @@ app.use(bodyParser.json());
 // Serve static files from the frontend folder
 app.use(express.static(path.join(__dirname, "../frontend")));
 
-// API Route - Chatbot interaction
+// Gemini model setup
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-
-const fs = require("fs");
-const dataPath = path.resolve(__dirname, 'data.json');
-const data = fs.readFileSync(dataPath, 'utf-8');
-
 
 app.post('/ask', async (req, res) => {
   try {
     const userMessage = req.body.message.toLowerCase();
     console.log("📩 Received from frontend:", userMessage);
 
-    // 🔍 1. Check FAQ match
-    const faqMatch = data.faqs.find(faq =>
-      userMessage.includes(faq.question.toLowerCase())
-    );    
-    if (faqMatch) {
-      console.log("✅ Matched FAQ");
-      return res.json({ reply: faqMatch.answer });
-    }
-
-    // 🕵️‍♂️ 2. Check for category (men, women, unisex, kids)
-    const categories = ["men", "women", "unisex", "kids"];
-    const matchedCategory = categories.find(cat => userMessage.includes(cat));
-    if (matchedCategory) {
-      const matchingProducts = data.products.filter(p => p.category === matchedCategory);
-      if (matchingProducts.length > 0) {
-        const productText = matchingProducts.map(p =>
-          `🕒 ${p.name}\n📖 ${p.description}\n🛒 Buy Now: ${p.url}`
-        ).join('\n\n');
-        console.log("✅ Matched product category");
-        return res.json({ reply: productText });
-      }
-    }
-
-    // 💬 3. Fallback to Gemini
+    // 🧠 Fallback to Gemini
     const model = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' });
 
     const prompt = `
@@ -78,8 +50,7 @@ Now respond:
   }
 });
 
-
-// Fallback route - Serve index.html on root
+// Fallback route - Serve index.html
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/index.html'));
 });
@@ -88,5 +59,4 @@ const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`✅ Server running on http://localhost:${PORT}`);
 });
-
 
